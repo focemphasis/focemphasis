@@ -6,219 +6,11 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Our Clients | FocEmphasis Software Solutions</title>
+<title>Our Clients | FocEmphasis</title>
 
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="assets/css/style.css">
 
-<style>
-
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:"Segoe UI",Arial,sans-serif;
-}
-
-
-body{
-color:#333;
-}
-
-
-header{
-
-padding:20px 8%;
-box-shadow:0 2px 10px #ddd;
-}
-
-
-nav{
-
-display:flex;
-justify-content:space-between;
-align-items:center;
-
-}
-
-
-.logo{
-
-font-size:28px;
-font-weight:bold;
-color:#0078D4;
-
-}
-
-
-nav ul{
-
-display:flex;
-gap:25px;
-list-style:none;
-
-}
-
-
-nav a{
-
-text-decoration:none;
-color:#333;
-
-}
-
-
-
-/* Hero */
-
-.hero{
-
-background:#0078D4;
-color:white;
-padding:80px 8%;
-text-align:center;
-
-}
-
-
-.hero h1{
-
-font-size:45px;
-margin-bottom:20px;
-
-}
-
-
-.hero p{
-
-font-size:18px;
-
-}
-
-
-
-/* Clients */
-
-
-.clients{
-
-padding:70px 8%;
-
-}
-
-
-.title{
-
-text-align:center;
-font-size:36px;
-margin-bottom:40px;
-
-}
-
-
-
-.client-grid{
-
-display:grid;
-grid-template-columns:repeat(3,1fr);
-gap:30px;
-
-}
-
-
-
-.client-card{
-
-background:white;
-padding:35px;
-border-radius:12px;
-box-shadow:0 5px 20px #ddd;
-text-align:center;
-
-}
-
-
-
-.client-card h2{
-
-color:#0078D4;
-margin-bottom:15px;
-
-}
-
-
-
-.client-card p{
-
-margin-bottom:15px;
-
-}
-
-
-
-.client-card a{
-
-color:#0078D4;
-font-weight:bold;
-
-}
-
-
-
-/* Industries */
-
-.industry{
-
-background:#f5f7fa;
-padding:60px 8%;
-text-align:center;
-
-}
-
-
-.industry span{
-
-display:inline-block;
-background:white;
-padding:15px 25px;
-margin:10px;
-border-radius:25px;
-box-shadow:0 2px 10px #ddd;
-
-}
-
-
-
-/* Footer */
-
-
-footer{
-
-background:#222;
-color:white;
-text-align:center;
-padding:25px;
-
-}
-
-
-
-
-@media(max-width:900px){
-
-.client-grid{
-
-grid-template-columns:1fr;
-
-}
-
-nav{
-
-flex-direction:column;
-
-}
-
-}
-
-</style>
 
 </head>
 
@@ -237,11 +29,19 @@ FocEmphasis
 
 <ul>
 
-<li><a href="index.html">Home</a></li>
-<li><a href="about.html">About</a></li>
-<li><a href="portfolio.html">Projects</a></li>
-<li><a href="clients.html">Clients</a></li>
-<li><a href="contact.html">Contact</a></li>
+<li><a href="#">Home</a></li>
+
+                    <li><a href="about.html">About</a></li>
+
+                    <li><a href="services.html">Services</a></li>
+
+                    <li><a href="solutions.html">Solutions</a></li>
+
+                    <li><a href="portfolio.html">Portfolio</a></li>
+
+                    <li><a href="contact.html">Contact</a></li>
+
+                    <li><a href="clients.html">Clients</a></li>
 
 </ul>
 
@@ -253,8 +53,9 @@ FocEmphasis
 
 
 
-<section class="hero">
+<!-- Hero -->
 
+<section class="hero">
 
 <h1>
 Our Clients
@@ -262,7 +63,7 @@ Our Clients
 
 
 <p>
-Building trusted partnerships through Microsoft Cloud and Digital Solutions.
+Trusted partnerships delivering Microsoft Cloud and Digital Transformation solutions.
 </p>
 
 
@@ -272,34 +73,29 @@ Building trusted partnerships through Microsoft Cloud and Digital Solutions.
 
 
 
-<section class="clients">
+<!-- Clients -->
+
+<section class="services">
 
 
 <h2 class="title">
-Trusted Organizations
+Organizations We Work With
 </h2>
 
 
 
-<div class="client-grid">
+<div class="service-grid">
 
 
 
-<div class="client-card">
+<div class="card">
 
-<h2>
-AM Industrial Group
-</h2>
-
-
-<p>
-Industrial Machinery & Manufacturing
-</p>
-
+<h3>
+AM Industrial Machinery
+</h3>
 
 <p>
-Delivering technology solutions that support
-business operations and digital transformation.
+Industrial machinery and manufacturing solutions.
 </p>
 
 
@@ -314,21 +110,15 @@ Visit Website
 
 
 
-<div class="client-card">
+<div class="card">
 
-<h2>
+<h3>
 NetVision Resources
-</h2>
+</h3>
 
 
 <p>
-Information Technology Services
-</p>
-
-
-<p>
-Supporting organizations with technology,
-managed services and business solutions.
+Technology services and business solutions.
 </p>
 
 
@@ -344,21 +134,15 @@ Visit Website
 
 
 
-<div class="client-card">
+<div class="card">
 
-<h2>
+<h3>
 PeoplePotential
-</h2>
+</h3>
 
 
 <p>
-Business Solutions
-</p>
-
-
-<p>
-Partnering to deliver technology solutions
-and process improvements.
+Business solutions and process improvement services.
 </p>
 
 
@@ -374,20 +158,15 @@ Visit Website
 
 
 
-<div class="client-card">
+<div class="card">
 
-<h2>
+<h3>
 Savvy Dentist
-</h2>
+</h3>
 
 
 <p>
-Dental Industry Solutions
-</p>
-
-
-<p>
-Supporting digital initiatives and business operations.
+Digital solutions supporting dental organizations.
 </p>
 
 
@@ -403,21 +182,15 @@ Visit Website
 
 
 
-<div class="client-card">
+<div class="card">
 
-<h2>
+<h3>
 Petroleum Distributors
-</h2>
+</h3>
 
 
 <p>
-Petroleum Distribution Industry
-</p>
-
-
-<p>
-Technology solutions focused on operational efficiency
-and automation.
+Petroleum distribution industry solutions.
 </p>
 
 
@@ -440,19 +213,58 @@ Visit Website
 
 
 
-<section class="industry">
+<!-- Industries -->
+
+<section class="tech">
 
 
-<h2>
+<h2 class="title">
 Industries We Support
 </h2>
 
 
+
+<div class="tech-list">
+
 <span>Manufacturing</span>
-<span>Information Technology</span>
-<span>Transportation</span>
+
+<span>IT Services</span>
+
 <span>Healthcare</span>
+
+<span>Transportation</span>
+
 <span>Distribution</span>
+
+
+</div>
+
+
+
+</section>
+
+
+
+
+
+
+
+<section class="cta">
+
+
+<h2>
+Partner With FocEmphasis
+</h2>
+
+
+<p>
+Let's build secure and scalable digital solutions together.
+</p>
+
+
+<a class="btn" href="contact.html">
+Contact Us
+</a>
 
 
 </section>
@@ -463,10 +275,13 @@ Industries We Support
 
 <footer>
 
+<p>
 © 2026 FocEmphasis Software Solutions Private Limited
+</p>
 
 </footer>
 
+ <script src="assets/js/script.js"></script>
 
 </body>
 
